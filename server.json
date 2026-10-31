@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.linuxlinking/ocr-mcp",
+  "title": "OCR MCP",
+  "description": "OCR MCP server for agents backed by PaddleOCR: text, table, handwriting and math formula recognition (formulas output as LaTeX), from local paths or HTTP(S) URLs, over stdio.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/LinuxLinking/ocr-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "ocr-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" }
+    }
+  ],
+  "tools": [
+    { "name": "ocr_recognize", "description": "General text recognition from an image" },
+    { "name": "ocr_table", "description": "Table extraction returning structured text" },
+    { "name": "ocr_handwrite", "description": "Handwriting recognition" },
+    { "name": "ocr_formula", "description": "Math formula recognition returning LaTeX" }
+  ],
+  "keywords": ["ocr", "paddleocr", "mcp", "text-recognition", "latex", "table-recognition"]
+}
