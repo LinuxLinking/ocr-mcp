@@ -1,5 +1,7 @@
 # OCR MCP Service
 
+<!-- mcp-name: io.github.LinuxLinking/ocr-mcp -->
+
 [中文](README.zh-CN.md) | [日本語](README.ja.md)
 
 MCP service for OCR tasks powered by PaddleOCR.
